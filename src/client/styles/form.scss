@@ -1,5 +1,7 @@
+$primary-color: #dc0c0c;
+
 form {
-    border: 1px solid #545454;
+    border: 1px solid $primary-color;
     border-radius: 3px;
     padding: 40px;
 }
