@@ -7,13 +7,12 @@ const {
 
 module.exports = {
     entry: './src/client/index.js',
-    mode: 'development',
-    devtool: 'source-map',
-    stats: 'verbose',
     output: {
         libraryTarget: 'var',
         library: 'Client'
     },
+    mode: 'development',
+    devtool: 'source-map',
     module: {
         rules: [{
                 test: '/\.js$/',
